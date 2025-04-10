@@ -1,35 +1,34 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
 
 #header{
+ 
+ 
     position: relative;
     height:550px;
-    background: -moz-linear-gradient(bottom, #fcfbfb, #fff 50%);
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f3b8d7), color-stop(0.50, #91cfdd));
+   
     }
     
 
     
 
     .logo_b{
-      -webkit-box-shadow: 0px 2px 13px 2px white;
-      -moz-box-shadow:    0px 2px 13px 2px  white;
-      box-shadow:         0px 2px 13px 2px white;
+     margin-left: 10%;
       width: 250px;
-      margin-top: 10px;
-      background-color: #043945;
+      border: 0px solid red;
+     
     }
 
     .fundo{
-      border: 0px solid green;
-      width:150px;
-      margin-left: 10%;
-      margin-top: 10px;
-      
+      border: 1px solid green;
+     
+     background-color:#a05dd1;
+        
       
     }
 
@@ -59,14 +58,15 @@
     }
 
     .botao-wats{
-    width:60px;
-    height: 60px;
-    border:0px solid red;
-    margin-left: 10%;
-  
-    background-color: white;
+    width:50px;
+    height: 50px;
+    position: fixed;
+    bottom: 5px; 
+    right: 10px;
     border-radius: 50px;
     text-align: center;
+  
+    background-color: white;
     }
 
     .logo_botao{
@@ -230,6 +230,7 @@ box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
       }
 
 
+
       #footer{
         
       display: block;
@@ -253,9 +254,6 @@ box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
         margin: auto;
         margin-top: 200px;
       }
-   
-
-     
 
       .logo-img-rodape{
         width: 200px;
@@ -275,15 +273,16 @@ box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
     .fundo{
     border: 0px solid black;
     margin: auto;
-    width: 120px;
+    background-color:#a05dd1;
     }
   
     .logo_b{
       width: 220px;
       border: 0px solid red;
-      margin-left:-50% ;
-    }
+     margin-left: 38%;
+      }
 
+      
     .titulo{
      border: 0px solid green;
      width: 75%;
@@ -309,13 +308,15 @@ box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
     }
 
     .botao-wats{
-      width:200px;
-      margin-left: 50%;
-      margin-top:385px;
-      position: absolute;
-      z-index: 1;
-      width:60px;
-      height: 60px;
+      width:50px;
+    height: 50px;
+    position: fixed;
+    bottom: 5px; 
+    right: 10px;
+    border-radius: 50px;
+    text-align: center;
+  
+    background-color: white;
       }
    
       .titulo{
@@ -334,7 +335,7 @@ box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
       }
 
       .box-prazo{
-         width: 300px;
+        width: 300px;
         height: 350px;
        font-size: 18pt;
         
@@ -353,8 +354,7 @@ box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
       }
      
 
-      
-
+     
 
     }
   
