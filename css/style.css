@@ -83,7 +83,7 @@
       height: 370px;
       border: 0px solid red;
       position: absolute;
-      opacity : 0.8; 
+     
       bottom: 0px;
       right:10%;
     }
@@ -109,7 +109,11 @@
     
     h1{
       text-align: center;
-      padding-bottom: 40px;
+      padding: 40px;
+      border-radius: 10px;
+      background-color:#b92d94;
+      color: white;
+      width: 100%;
     }
 
     .col{
@@ -270,7 +274,7 @@ box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
   
     }
   
-     .fundo{
+    .fundo{
     border: 0px solid black;
     margin: auto;
     background-color:#a05dd1;
@@ -330,12 +334,14 @@ box-shadow:         0px 2px 13px 2px rgba(50, 50, 50, 0.4);
       }
       
       .deusa{
-        background-image: url("../img/mamae-menor.png");
-        width: 200px;
-        height: 200px;
+        background-image: url("../img/bebez.png");
+        width: 300px;
+        height: 240px;
         border: 0px solid rgb(21, 20, 20);
         right: 0px;
-        opacity : 0.4; 
+        z-index: 9;
+        top:450px;
+        
       }
 
       .box-prazo{
